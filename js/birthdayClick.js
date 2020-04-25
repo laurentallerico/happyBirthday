@@ -11,7 +11,7 @@ document.getElementsByTagName('body').addEventListener("click", function () {
     else option++;
 });
 
-// clear text box on DOM load
+// clear div on DOM load
 document.addEventListener("DOMContentLoaded", function () {
-    document.getElementById('main').innerHTML = "Testing";
+    //document.getElementById('main').innerHTML = "";
 });
