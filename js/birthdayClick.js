@@ -5,8 +5,8 @@ let bunch = ["Happy", "Birthday", "Tony"]
 let option = 0
 let phrase = bunch[option]
 
-document.getElementsByTagName('body').addEventListener("click", function () {
-    document.getElementById("main").innerHTML = phrase;
+document.getElementById('button').addEventListener("click", function () {
+    document.getElementById('main').innerHTML = phrase;
     if (option == 2) option = 0;
     else option++;
 });
