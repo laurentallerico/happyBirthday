@@ -17,11 +17,11 @@ document.addEventListener("click", function (event) {
     button.innerHTML = phrase;
     if (option == song.length - 1) option = 0;
     else option++;
-    if (colorOption = colors.length - 1) colorOption = 0;
+    if (colorOption == colors.length - 1) colorOption = 0;
     else colorOption++;
     let x = event.clientX;
     let y = event.clientY;
     button.style.left = x + "px";
     button.style.top = y + "px";
-    button.style.backgroundColor = color;
+    button.style.color = color;
 });
