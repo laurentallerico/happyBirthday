@@ -11,7 +11,7 @@ let option = 0;
 
 document.addEventListener("click", function (event) {
     let phrase = song[option];
-    let color = color[colorOption];
+    let color = colors[colorOption];
     let button = document.createElement("button");
     document.getElementById("main").appendChild(button);
     button.innerHTML = phrase;
