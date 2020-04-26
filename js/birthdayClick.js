@@ -1,9 +1,9 @@
 
 
 //document.onload.addEventListener
-let song = ["Hap", "py", "birth", "day", "to", "you!", "Hap", "py", "birth", "day", "to", "you!", "Happ", "y",
-    "y", "y", "y", "y", "y", "y", "bir", "r", "r", "th", "daaaa", "y", "yy", "yyy", "yyyy", "dear", "To", "ny",
-    "Hap", "py", "birth", "day", "to", "YOU!"];
+let song = ["Hap-", "-py", "birth-", "-day", "to", "you!", "Hap-", "-py", "birth-", "-day", "to", "you!", "Hap-", "-py",
+    "bi-", "-i-", "-i-", "-i-", "-i-", "-i-", "-i-", "-irth-", "-daaaay-", "-y", "-yy", "-yyy", "-yyyy", "dear", "To-", "-o-",
+    "-oo-", "-ooo-", "-nyyyyyyyyy!", "Hap-", "-py", "birth-", "-day", "to", "YOU!"];
 let colors = ["red", "orange", "yellow", "green", "blue", "purple"];
 let colorOption = 0;
 let option = 0;
