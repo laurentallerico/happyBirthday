@@ -24,5 +24,5 @@ document.addEventListener("click", function (event) {
     button.style.left = x + "px";
     button.style.top = y + "px";
     button.style.color = color;
-    if (color = "yellow") button.style.backgroundColor = "black";
+    if (color == "yellow") button.style.backgroundColor = "black";
 });
