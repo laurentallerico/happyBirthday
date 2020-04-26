@@ -2,7 +2,7 @@
 
 //document.onload.addEventListener
 let song = ["Hap", "py", "birth", "day", "to", "you!", "Hap", "py", "birth", "day", "to", "you!", "Happ", "y",
-    "y", "y", "y", "y", "y", "y", "bir", "r", "r", "th", "daaaa", "y", "yy", "yyy", "yyyy", "dear" "To", "Tony",
+    "y", "y", "y", "y", "y", "y", "bir", "r", "r", "th", "daaaa", "y", "yy", "yyy", "yyyy", "dear", "To", "Tony",
     "Hap", "py", "birth", "day", "to", "YOU!"];
 let option = 0
 
@@ -10,6 +10,8 @@ let option = 0
 document.addEventListener("click", function (event) {
     let button = document.getElementById("button");
     let phrase = song[option]
+    let newButton = this.createElement("button");
+
     button.innerHTML = phrase;
     if (option == song.length) option = 0;
     else option++;
