@@ -4,11 +4,11 @@
 let song = ["Hap-", "-py", "birth-", "-day", "to", "you!", "Hap-", "-py", "birth-", "-day", "to", "you!", "Hap-", "-py",
     "bi-", "-i-", "-ii-", "-iii-", "-iiii-", "-iiiii-", "-iiiiii-", "-irth-", "-daaaay-", "-y", "-yy", "-yyy",
     "-yyyy", "dear", "To-", "-o-", "-oo-", "-ooo-", "-nyyyyyyyyy!", "Hap-", "-py", "birth-", "-day", "to", "YOU!"];
-let chords = ["Re.mp3", "Re.mp3", "Mi.mp3", "Re.mp3", "Sol.mp3", "Fa#.mp3", "Re.mp3", "Re.mp3",
-    "Mi.mp3", "Re.mp3", "La.mp3", "Sol.mp3", "Re.mp3", "Re.mp3", "Re2.mp3", "Re2.mp3",
-    "Re2.mp3", "Re2.mp3", "Re2.mp3", "Re2.mp3", "Re2.mp3", "Re2.mp3", "Si.mp3", "Si.mp3", "Si.mp3",
-    "Si.mp3", "Si.mp3", "Sol.mp3", "Fa#.mp3", "Fa#.mp3", "Fa#.mp3", "Fa#.mp3", "Mi.mp3",
-    "Do.mp3", "Do.mp3", "Si.mp3", "Sol.mp3", "La.mp3", "Sol.mp3"];
+let chords = ["re.mp3", "re.mp3", "mi.mp3", "re.mp3", "sol.mp3", "fa#.mp3", "re.mp3", "re.mp3",
+    "mi.mp3", "re.mp3", "la.mp3", "sol.mp3", "re.mp3", "re.mp3", "re2.mp3", "re2.mp3",
+    "re2.mp3", "re2.mp3", "re2.mp3", "re2.mp3", "re2.mp3", "re2.mp3", "si.mp3", "si.mp3", "si.mp3",
+    "si.mp3", "si.mp3", "sol.mp3", "fa#.mp3", "fa#.mp3", "fa#.mp3", "fa#.mp3", "mi.mp3",
+    "do.mp3", "do.mp3", "si.mp3", "sol.mp3", "la.mp3", "sol.mp3"];
 let colors = ["red", "orange", "yellow", "green", "blue", "purple"];
 let colorOption = 0;
 let option = 0;
