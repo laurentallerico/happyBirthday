@@ -17,8 +17,7 @@ document.addEventListener("click", function (event) {
         document.getElementById('main').style.backgroundImage = "url('../images/ialreadytoldyouoncewithmymouth.jpg')";
     }
     if (option == 0) {
-        document.getElementById('main').style.backgroundImage = "url(''../images/chicken.jpg')";
-        console.log("am I here?")
+        document.getElementById('main').style.backgroundImage = "url('../images/chicken.jpg')";
     }
     var chord = new Audio("music/" + chords[option]);
     chord.play();
