@@ -13,8 +13,8 @@ let colorOption = 0;
 let option = 0;
 
 document.addEventListener("click", function (event) {
-    var img1 = "../images/ialreadytoldyouoncewithmymouth.jpg";
-    var img2 = "../images/chicken.jpg"
+    var img1 = "images/ialreadytoldyouoncewithmymouth.jpg";
+    var img2 = "images/chicken.jpg"
     if (option == chords.length - 1) {
         document.body.backgroundImage = "url(img1)";
     }
