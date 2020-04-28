@@ -22,10 +22,10 @@ document.addEventListener("click", function (event) {
     button.innerHTML = phrase;
     if (option == song.length - 1) option = 0;
     else option++;
-    if (option == 32) {
+    if (option == 31) {
         document.getElementById('main').style.backgroundImage = url("../images/ialreadytoldyouoncewithmymouth.jpg");
     }
-    if (option == 1) {
+    if (option == 0) {
         document.getElementById('main').style.backgroundImage = url("../images/chicken.jpg");
     }
     if (colorOption == colors.length - 1) colorOption = 0;
