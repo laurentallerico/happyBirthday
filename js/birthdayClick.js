@@ -13,14 +13,11 @@ let colorOption = 0;
 let option = 0;
 
 document.addEventListener("click", function (event) {
-    var img1 = "./images/ialreadytoldyouoncewithmymouth.jpg";
-    var img2 = "./images/chicken.jpg"
     if (option == chords.length - 1) {
-        document.getElementsByTagName("body").background = "url('images/chicken.jpg')";
+        document.getElementsByTagName("body").[0].background = "url('images/chicken.jpg')";
     }
     if (option == 0) {
-        document.getElementsByTagName("body").background = "url('images/ialreadytoldyouoncewithmymouth.jpg')";
-        //document.body.background = "url(img2)";
+        document.getElementsByTagName("body")[0].background = "url('images/ialreadytoldyouoncewithmymouth.jpg')";
     }
     var chord = new Audio("music/" + chords[option]);
     chord.play();
