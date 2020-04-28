@@ -6,7 +6,7 @@ let song = ["Hap-", "-py", "birth-", "-day", "to", "you!", "Hap-", "-py", "birth
     "Hap-", "-py", "birth-", "-day", "to", "YOU!"];
 let chords = ["re.mp3", "re.mp3", "mi.mp3", "re.mp3", "sol.mp3", "faSharp.mp3", "re.mp3", "re.mp3",
     "mi.mp3", "re.mp3", "la.mp3", "sol.mp3", "re.mp3", "re.mp3", "re2.mp3", "re2.mp3",
-    "re2.mp3", "re2.mp3", "re2.mp3", "re2.mp3", "re2.mp3", "re2.mp3", "si.mp3", "si.mp3", "sol.mp3",
+    "re2.mp3", "re2.mp3", "re2.mp3", "re2.mp3", "re2.mp3", "re2.mp3", "si.mp3", "sol.mp3",
     "faSharp.mp3", "mi.mp3", "do.mp3", "do.mp3", "si.mp3", "sol.mp3", "la.mp3", "sol.mp3"];
 let colors = ["red", "orange", "yellow", "green", "blue", "purple"];
 let colorOption = 0;
