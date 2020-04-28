@@ -16,10 +16,11 @@ document.addEventListener("click", function (event) {
     var img1 = "./images/ialreadytoldyouoncewithmymouth.jpg";
     var img2 = "./images/chicken.jpg"
     if (option == chords.length - 1) {
-        document.body.background = "url(img1)";
+        document.getElementsByTagName("body").background = "url('images/chicken.jpg')";
     }
     if (option == 0) {
-        document.body.background = "url(img2)";
+        document.getElementsByTagName("body").background = "url('images/ialreadytoldyouoncewithmymouth.jpg')";
+        //document.body.background = "url(img2)";
     }
     var chord = new Audio("music/" + chords[option]);
     chord.play();
