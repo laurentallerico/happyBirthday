@@ -13,11 +13,13 @@ let colorOption = 0;
 let option = 0;
 
 document.addEventListener("click", function (event) {
+    var img1 = "../images/ialreadytoldyouoncewithmymouth.jpg";
+    var img2 = "../images/chicken.jpg"
     if (option == chords.length - 1) {
-        document.body.backgroundImage = "url('../images/ialreadytoldyouoncewithmymouth.jpg')";
+        document.body.backgroundImage = "url(img1)";
     }
     if (option == 0) {
-        document.body.backgroundImage = "url('../images/chicken.jpg')";
+        document.body.backgroundImage = "url(img2)";
     }
     var chord = new Audio("music/" + chords[option]);
     chord.play();
