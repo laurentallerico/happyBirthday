@@ -14,10 +14,10 @@ let option = 0;
 
 document.addEventListener("click", function (event) {
     if (option == chords.length - 1) {
-        document.getElementsByTagName("body").[0].background = "url('images/chicken.jpg')";
+        document.getElementById("main").background = "url('./images/chicken.jpg')";
     }
     if (option == 0) {
-        document.getElementsByTagName("body")[0].background = "url('images/ialreadytoldyouoncewithmymouth.jpg')";
+        document.getElementById("main").background = "url('./images/ialreadytoldyouoncewithmymouth.jpg')";
     }
     var chord = new Audio("music/" + chords[option]);
     chord.play();
