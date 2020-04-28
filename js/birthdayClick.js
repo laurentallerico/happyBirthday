@@ -23,10 +23,10 @@ document.addEventListener("click", function (event) {
     if (option == song.length - 1) option = 0;
     else option++;
     if (option == 32) {
-        document.getElementById('main').style.backgroundImage = "../images/ialreadytoldyouoncewithmymouth.jpg";
+        document.getElementById('main').style.backgroundImage = url("../images/ialreadytoldyouoncewithmymouth.jpg");
     }
     if (option == 1) {
-        document.getElementById('main').style.backgroundImage = "../images/chicken.jpg";
+        document.getElementById('main').style.backgroundImage = url("../images/chicken.jpg");
     }
     if (colorOption == colors.length - 1) colorOption = 0;
     else colorOption++;
