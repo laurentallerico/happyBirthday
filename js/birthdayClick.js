@@ -18,6 +18,7 @@ document.addEventListener("click", function (event) {
     }
     if (option == 0) {
         document.getElementById('main').style.backgroundImage = url("../images/chicken.jpg");
+        console.log("am I here?")
     }
     var chord = new Audio("music/" + chords[option]);
     chord.play();
