@@ -13,6 +13,12 @@ let colorOption = 0;
 let option = 0;
 
 document.addEventListener("click", function (event) {
+    if (option == chords.length - 1) {
+        document.getElementById('main').style.backgroundImage = url("../images/ialreadytoldyouoncewithmymouth.jpg");
+    }
+    if (option == 0) {
+        document.getElementById('main').style.backgroundImage = url("../images/chicken.jpg");
+    }
     var chord = new Audio("music/" + chords[option]);
     chord.play();
     let phrase = song[option];
@@ -22,12 +28,6 @@ document.addEventListener("click", function (event) {
     button.innerHTML = phrase;
     if (option == song.length - 1) option = 0;
     else option++;
-    if (option == 31) {
-        document.getElementById('main').style.backgroundImage = url("../images/ialreadytoldyouoncewithmymouth.jpg");
-    }
-    if (option == 0) {
-        document.getElementById('main').style.backgroundImage = url("../images/chicken.jpg");
-    }
     if (colorOption == colors.length - 1) colorOption = 0;
     else colorOption++;
     let x = event.clientX;
